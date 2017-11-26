@@ -1,0 +1,54 @@
+{
+  "status": "ok",
+  "articles": [
+    {
+      "source": {
+        "id": "techcrunch",
+        "name": "TechCrunch"
+      },
+      "author": "Jon Evans",
+      "title": "In praise of Tesla’s bankruptcy",
+      "description": "You know everybody loves Tesla-the-company. But did you know that a whole lot of smart people hate Tesla-the-business? \"From a return-on-investment-capital..",
+      "url": "https://techcrunch.com/2017/11/26/in-praise-of-teslas-bankruptcy/",
+      "urlToImage": "https://tctechcrunch2011.files.wordpress.com/2017/11/phalanx.jpg",
+      "publishedAt": "2017-11-26T14:00:47Z"
+    },
+    {
+      "source": {
+        "id": "techcrunch",
+        "name": "TechCrunch"
+      },
+      "author": "Katie Roof",
+      "title": "Black Friday pushes Jeff Bezos’ net worth to $100 billion",
+      "description": "Being the richest man in the world wasn't enough. After Amazon shares climbed on Black Friday, founder and CEO Jeff Bezos saw his net worth rise to $100.3..",
+      "url": "https://techcrunch.com/2017/11/25/black-friday-pushes-jeff-bezos-net-worth-to-100-billion/",
+      "urlToImage": "https://tctechcrunch2011.files.wordpress.com/2017/04/gettyimages-649082988.jpg",
+      "publishedAt": "2017-11-25T22:47:10Z"
+    },
+    {
+      "source": {
+        "id": "techcrunch",
+        "name": "TechCrunch"
+      },
+      "author": "Devin Coldewey",
+      "title": "FCC doubles down on its dead-wrong definition of how the internet works",
+      "description": "In May, when the FCC released an early draft of its plan to undo 2015's strong net neutrality rules, I pointed out that its case rests almost entirely on a..",
+      "url": "https://techcrunch.com/2017/11/25/fcc-doubles-down-on-its-dead-wrong-definition-of-how-the-internet-works/",
+      "urlToImage": "https://tctechcrunch2011.files.wordpress.com/2017/05/3-fcc-seal-repaired.jpg",
+      "publishedAt": "2017-11-25T21:55:52Z"
+    },
+    {
+      "source": {
+        "id": "techcrunch",
+        "name": "TechCrunch"
+      },
+      "author": "Devin Coldewey",
+      "title": "‘Substitute Phone’ artfully satisfies your compulsion to swipe and scroll",
+      "description": "Smartphones are inarguably an addictive class of devices, and not just because they put an endless font of information at your fingertips. The experience of..",
+      "url": "https://techcrunch.com/2017/11/25/substitute-phone-artfully-satisfies-your-compulsion-to-swipe-and-scroll/",
+      "urlToImage": "https://tctechcrunch2011.files.wordpress.com/2017/11/substitute-phone-klemens-schillinger-design_dezeen_2364_col_0.jpg",
+      "publishedAt": "2017-11-25T19:21:58Z"
+    }
+  ]
+}
+
