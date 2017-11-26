@@ -1,0 +1,26 @@
+<div fxLayout="row" fxLayout.lt-md="column" fxFlexFill>
+
+  <div fxFlex="40">
+
+    <mat-nav-list>
+      <mat-list-item *ngFor="let course of (courses | async)">
+        <a matLine>{{course.name}}</a>
+      </mat-list-item>
+    </mat-nav-list>
+  </div>
+
+  <div fxFlex="60">
+    <div *ngFor="let course of (courses | async)">
+      <div [innerHTML]="course.content"></div>
+    </div>
+  </div>
+
+</div>
+
+
+
+
+
+
+
+

@@ -1,0 +1,48 @@
+<mat-card>
+  <mat-card-content>
+    <textarea id="{{elementId}}"></textarea>
+  </mat-card-content>
+</mat-card>
+
+<mat-card>
+  <mat-card-header>
+    <mat-card-title><h1>Editor</h1></mat-card-title>
+  </mat-card-header>
+  <mat-card-content>
+    <form class="example-container">
+      <mat-form-field>
+        <textarea matInput
+                  #inputTarget
+                  placeholder="Html"
+                  [(ngModel)]="contentHtml"
+                  name="contentHtml"
+                  rows="10" cols="50"
+        ></textarea>
+      </mat-form-field>
+
+      <mat-form-field>
+        <textarea matInput
+                  placeholder="Json"
+                  [(ngModel)]="contentJson"
+                  name="contontJson"
+                  rows="10" cols="50"
+        ></textarea>
+      </mat-form-field>
+    </form>
+  </mat-card-content>
+  <mat-card-actions>
+    <button mat-button (click)="jsonStringEscape()">
+      Json String Escape
+    </button>
+
+    <button mat-button [ngxClipboard]="inputTarget">
+      Copy to clipboard
+    </button>
+  </mat-card-actions>
+</mat-card>
+
+
+
+
+
+

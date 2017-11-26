@@ -8,12 +8,17 @@ import { AppComponent } from './app.component';
 
 import { environment } from '../environments/environment';
 
+import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
+import {CoreModule} from './core/core.module';
+
 @NgModule({
   declarations: [
     AppComponent
   ],
   imports: [
     BrowserModule,
+    BrowserAnimationsModule,
+    CoreModule,
     AppRoutingModule,
     environment.production ? ServiceWorkerModule.register('/ngsw-worker.js') : []
   ],

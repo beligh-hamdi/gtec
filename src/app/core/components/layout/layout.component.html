@@ -1,0 +1,43 @@
+<mat-sidenav-container class="mat-typography">
+  <mat-sidenav #sidenav mode="side">
+
+    <!--
+    <mat-toolbar color="primary">
+      <img src="assets/images/logo.jpg" class="logo" [alt]="title" />
+    </mat-toolbar>
+    -->
+    <img src="assets/images/logo.jpg" class="logo" [alt]="title" />
+
+    <mat-nav-list>
+      <mat-list-item>
+        <mat-icon mat-list-icon>home</mat-icon>
+        <a matLine [routerLink]="'/home'">Home</a>
+      </mat-list-item>
+      <mat-list-item>
+        <mat-icon mat-list-icon>info</mat-icon>
+        <a matLine [routerLink]="'/about'">About</a>
+      </mat-list-item>
+      <mat-list-item>
+        <mat-icon mat-list-icon>info</mat-icon>
+        <a matLine [routerLink]="'/training'">Training</a>
+      </mat-list-item>
+
+    </mat-nav-list>
+
+  </mat-sidenav>
+
+  <mat-toolbar color="primary">
+    <span>
+      <button mat-icon-button (click)="sidenav.toggle()">
+        <mat-icon>menu</mat-icon>
+      </button>
+    </span>
+    <span>{{title}}</span>
+  </mat-toolbar>
+
+  <div class="content">
+    <!-- <app-tab></app-tab> -->
+    <ng-content select="[layout-body]"></ng-content>
+  </div>
+
+</mat-sidenav-container>

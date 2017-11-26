@@ -1,0 +1,28 @@
+<div class="content"
+     fxLayout="row"
+     fxLayout.lt-md="column"
+     fxFlexFill>
+
+    <div fxFlex="80" *ngFor="let article of (articles | async)">
+      <mat-card class="app-card-medium">
+        <mat-card-header>
+          <mat-card-title>
+            <h1>{{article.title}}</h1>
+          </mat-card-title>
+          <mat-card-subtitle>
+            {{ article.publishedAt | date }}
+          </mat-card-subtitle>
+        </mat-card-header>
+        <img mat-card-image [src]="article.urlToImage" alt="{{article.title}}">
+        <mat-card-content>
+          <div [innerHTML]="article.description"></div>
+        </mat-card-content>
+        <mat-card-actions>
+          <button mat-button>Read more</button>
+          <button mat-button>Like</button>
+          <button mat-button>Share</button>
+        </mat-card-actions>
+      </mat-card>
+    </div>
+
+</div>
